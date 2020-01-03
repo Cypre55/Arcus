@@ -2,9 +2,11 @@ import pygame
 from os import path
 from constants import *
 
-##Explosion class to generate animation effect
+# Explosion class to generate animation effect
+
+
 class Explosion(pygame.sprite.Sprite):
-    def __init__(self,position,size,game):
+    def __init__(self, position, size, game):
         pygame.sprite.Sprite.__init__(self)
         self.pos = position
         self.size = size
@@ -13,7 +15,7 @@ class Explosion(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.rect.center = position
         self.current = pygame.time.get_ticks()
-        self.frame_rate = FPS
+        self.frame_rate = FPS * 2
         self.i = 0
         self.game.explosion_sound.play()
         # print(self.i)

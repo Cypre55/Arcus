@@ -20,7 +20,7 @@ HIGHSCORE_FILE="highscore.txt"
 ARROW_IMAGE = "assets/arrow_1.png"
 BACKGROUND_IMAGE = "assets/background.png"
 
-EXPLOSION_SOUND = "assets/boom.wav"
+EXPLOSION_SOUND = "assets/pop.ogg"
 CLICK_SOUND = "assets/select.wav"
 MUSIC_FILE = "assets/tgfcoder-FrozenJam-SeamlessLoop.ogg"
 VOLUME = 0.2
@@ -29,3 +29,4 @@ ARROW_SIZE = (16, 150)
 BALOON_SIZE = (100, 100)
 HIT_RADIUS = 15
 MISSES = 15
+GAME_TIME = 60
